@@ -10,7 +10,6 @@ const ingredients = [
 const ingredientsList = [];
 
 for (const ingredient of ingredients) {
-  console.log(ingredient);
   const ingredientItem = document.createElement("li");
   ingredientItem.textContent = ingredient;
   ingredientItem.classList.add("item");
